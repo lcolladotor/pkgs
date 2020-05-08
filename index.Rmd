@@ -7,7 +7,12 @@ author:
     - &ccb Center for Computational Biology, Johns Hopkins University
     email: lcolladotor@gmail.com
 output:
-  BiocStyle::html_document
+  html_document:
+    self_contained: false
+    toc: true
+    toc_float:
+      collapsed: false
+      smooth_scroll: true
 abstract: |
   I like to check my R packages using GitHub Actions, Bioconductor and other
   tools. This small website helps me see the status of the packages I've made
@@ -15,7 +20,7 @@ abstract: |
   helps me keep track of project repositories I've made where users might
   ask questions.
 vignette: |
-  %\VignetteIndexEntry{R packages by L. Collado-Torres"}
+  %\VignetteIndexEntry{R packages by L. Collado-Torres}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
@@ -364,3 +369,19 @@ Note: some of these GitHub repositories are currently private but will eventuall
 options(width = 120)
 session_info()
 ```
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-45299226-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-45299226-1');
+</script>
+
+<center>	 
+      <div id="clustrmaps-widget"></div><script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=m&d=Zo-deincaJGsqhqjIWsujtdoNOMJsnnZLefKmxDKVv8&co=124b73&cmo=dd53ff&cmn=4ec724'></script>
+</center>
+      
