@@ -1,0 +1,364 @@
+---
+title: "R packages by L. Collado-Torres"
+author:
+  - name: Leonardo Collado-Torres
+    affiliation:
+    - &libd Lieber Institute for Brain Development, Johns Hopkins Medical Campus
+    - &ccb Center for Computational Biology, Johns Hopkins University
+    email: lcolladotor@gmail.com
+output:
+  BiocStyle::html_document
+abstract: |
+  I like to check my R packages using GitHub Actions, Bioconductor and other
+  tools. This small website helps me see the status of the packages I've made
+  without having to navigate to a bunch of other websites.
+vignette: |
+  %\VignetteIndexEntry{R packages by L. Collado-Torres"}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+    collapse = TRUE,
+    comment = "#>"
+)
+library("BiocStyle")
+library("sessioninfo")
+```
+
+# Bioconductor
+
+## Maintainer
+
+### Software
+
+* `r Biocpkg("derfinder")`
+
+[![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
+[![BioC status](http://www.bioconductor.org/shields/build/release/bioc/derfinder.svg)](https://bioconductor.org/checkResults/release/bioc-LATEST/derfinder)
+[![BioC dev status](http://www.bioconductor.org/shields/build/devel/bioc/derfinder.svg)](https://bioconductor.org/checkResults/devel/bioc-LATEST/derfinder)
+[![Codecov test coverage](https://codecov.io/gh/lcolladotor/derfinder/branch/master/graph/badge.svg)](https://codecov.io/gh/lcolladotor/derfinder?branch=master)
+[![R build status](https://github.com/lcolladotor/derfinder/workflows/R-CMD-check-bioc/badge.svg)](https://github.com/lcolladotor/derfinder/actions)
+[![Support site activity, last 6 months: tagged questions/avg. answers per question/avg. comments per question/accepted answers, or 0 if no tagged posts.](http://www.bioconductor.org/shields/posts/derfinder.svg)](https://support.bioconductor.org/t/derfinder/)
+[![GitHub issues](https://img.shields.io/github/issues/lcolladotor/derfinder)](https://github.com/lcolladotor/derfinder/issues)
+
+* `r Biocpkg("derfinderHelper")`
+
+[![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
+[![BioC status](http://www.bioconductor.org/shields/build/release/bioc/derfinderHelper.svg)](https://bioconductor.org/checkResults/release/bioc-LATEST/derfinderHelper)
+[![BioC dev status](http://www.bioconductor.org/shields/build/devel/bioc/derfinderHelper.svg)](https://bioconductor.org/checkResults/devel/bioc-LATEST/derfinderHelper)
+[![Codecov test coverage](https://codecov.io/gh/leekgroup/derfinderHelper/branch/master/graph/badge.svg)](https://codecov.io/gh/leekgroup/derfinderHelper?branch=master)
+[![R build status](https://github.com/leekgroup/derfinderHelper/workflows/R-CMD-check-bioc/badge.svg)](https://github.com/leekgroup/derfinderHelper/actions)
+[![Support site activity, last 6 months: tagged questions/avg. answers per question/avg. comments per question/accepted answers, or 0 if no tagged posts.](http://www.bioconductor.org/shields/posts/derfinderHelper.svg)](https://support.bioconductor.org/t/derfinderHelper/)
+[![GitHub issues](https://img.shields.io/github/issues/leekgroup/derfinderHelper)](https://github.com/leekgroup/derfinderHelper/issues)
+
+* `r Biocpkg("derfinderPlot")`
+
+[![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
+[![BioC status](http://www.bioconductor.org/shields/build/release/bioc/derfinderPlot.svg)](https://bioconductor.org/checkResults/release/bioc-LATEST/derfinderPlot)
+[![BioC dev status](http://www.bioconductor.org/shields/build/devel/bioc/derfinderPlot.svg)](https://bioconductor.org/checkResults/devel/bioc-LATEST/derfinderPlot)
+[![Codecov test coverage](https://codecov.io/gh/leekgroup/derfinderPlot/branch/master/graph/badge.svg)](https://codecov.io/gh/leekgroup/derfinderPlot?branch=master)
+[![R build status](https://github.com/leekgroup/derfinderPlot/workflows/R-CMD-check-bioc/badge.svg)](https://github.com/leekgroup/derfinderPlot/actions)
+[![Support site activity, last 6 months: tagged questions/avg. answers per question/avg. comments per question/accepted answers, or 0 if no tagged posts.](http://www.bioconductor.org/shields/posts/derfinderPlot.svg)](https://support.bioconductor.org/t/derfinderPlot/)
+[![GitHub issues](https://img.shields.io/github/issues/leekgroup/derfinderPlot)](https://github.com/leekgroup/derfinderPlot/issues)
+
+* `r Biocpkg("recount")`
+
+[![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
+[![BioC status](http://www.bioconductor.org/shields/build/release/bioc/recount.svg)](https://bioconductor.org/checkResults/release/bioc-LATEST/recount)
+[![BioC dev status](http://www.bioconductor.org/shields/build/devel/bioc/recount.svg)](https://bioconductor.org/checkResults/devel/bioc-LATEST/recount)
+[![Codecov test coverage](https://codecov.io/gh/leekgroup/recount/branch/master/graph/badge.svg)](https://codecov.io/gh/leekgroup/recount?branch=master)
+[![R build status](https://github.com/leekgroup/recount/workflows/R-CMD-check-bioc/badge.svg)](https://github.com/leekgroup/recount/actions)
+[![Support site activity, last 6 months: tagged questions/avg. answers per question/avg. comments per question/accepted answers, or 0 if no tagged posts.](http://www.bioconductor.org/shields/posts/recount.svg)](https://support.bioconductor.org/t/recount/)
+[![GitHub issues](https://img.shields.io/github/issues/leekgroup/recount)](https://github.com/leekgroup/recount/issues)
+
+
+* `r Biocpkg("regionReport")`
+
+[![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
+[![BioC status](http://www.bioconductor.org/shields/build/release/bioc/regionReport.svg)](https://bioconductor.org/checkResults/release/bioc-LATEST/regionReport)
+[![BioC dev status](http://www.bioconductor.org/shields/build/devel/bioc/regionReport.svg)](https://bioconductor.org/checkResults/devel/bioc-LATEST/regionReport)
+[![R build status](https://github.com/leekgroup/regionReport/workflows/R-CMD-check-bioc/badge.svg)](https://github.com/leekgroup/regionReport/actions)
+[![Support site activity, last 6 months: tagged questions/avg. answers per question/avg. comments per question/accepted answers, or 0 if no tagged posts.](http://www.bioconductor.org/shields/posts/regionReport.svg)](https://support.bioconductor.org/t/regionReport/)
+[![GitHub issues](https://img.shields.io/github/issues/leekgroup/regionReport)](https://github.com/leekgroup/regionReport/issues)
+
+### Annotation
+
+* `r Biocpkg("GenomicState")`
+
+[![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
+[![BioC status](http://bioconductor.org/images/shields/availability/all.svg)](http://bioconductor.org/packages/release/data/annotation/html/GenomicState.html#archives)
+[![Codecov test coverage](https://codecov.io/gh/LieberInstitute/GenomicState/branch/master/graph/badge.svg)](https://codecov.io/gh/LieberInstitute/GenomicState?branch=master)
+[![R build status](https://github.com/LieberInstitute/GenomicState/workflows/R-CMD-check-bioc/badge.svg)](https://github.com/LieberInstitute/GenomicState/actions)
+[![Support site activity, last 6 months: tagged questions/avg. answers per question/avg. comments per question/accepted answers, or 0 if no tagged posts.](http://www.bioconductor.org/shields/posts/GenomicState.svg)](https://support.bioconductor.org/t/GenomicState/)
+[![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/GenomicState)](https://github.com/LieberInstitute/GenomicState/issues)
+
+### Experiment data
+
+* `r Biocpkg("derfinderData")`
+
+[![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
+[![BioC status](http://bioconductor.org/shields/build/release/data-experiment/derfinderData.svg)](http://bioconductor.org/checkResults/release/data-experiment-LATEST/derfinderData/)
+[![BioC dev status](http://bioconductor.org/shields/build/devel/data-experiment/derfinderData.svg)](http://bioconductor.org/checkResults/devel/data-experiment-LATEST/derfinderData/)
+[![R build status](https://github.com/leekgroup/derfinderData/workflows/R-CMD-check-bioc/badge.svg)](https://github.com/leekgroup/derfinderData/actions)
+[![Support site activity, last 6 months: tagged questions/avg. answers per question/avg. comments per question/accepted answers, or 0 if no tagged posts.](http://www.bioconductor.org/shields/posts/derfinderData.svg)](https://support.bioconductor.org/t/derfinderData/)
+[![GitHub issues](https://img.shields.io/github/issues/leekgroup/derfinderData)](https://github.com/leekgroup/derfinderData/issues)
+
+* `r Biocpkg("spatialLIBD")`
+
+[![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
+[![BioC status](http://bioconductor.org/shields/build/release/data-experiment/spatialLIBD.svg)](http://bioconductor.org/checkResults/release/data-experiment-LATEST/spatialLIBD/)
+[![BioC dev status](http://bioconductor.org/shields/build/devel/data-experiment/spatialLIBD.svg)](http://bioconductor.org/checkResults/devel/data-experiment-LATEST/spatialLIBD/)
+[![Codecov test coverage](https://codecov.io/gh/LieberInstitute/spatialLIBD/branch/master/graph/badge.svg)](https://codecov.io/gh/LieberInstitute/spatialLIBD?branch=master)
+[![R build status](https://github.com/LieberInstitute/spatialLIBD/workflows/R-CMD-check-bioc/badge.svg)](https://github.com/LieberInstitute/spatialLIBD/actions)
+[![Support site activity, last 6 months: tagged questions/avg. answers per question/avg. comments per question/accepted answers, or 0 if no tagged posts.](http://www.bioconductor.org/shields/posts/spatialLIBD.svg)](https://support.bioconductor.org/t/spatialLIBD/)
+[![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/spatialLIBD)](https://github.com/LieberInstitute/spatialLIBD/issues)
+
+### Workflow
+
+* `r Biocpkg("recountWorkflow")`
+
+[![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
+[![BioC status](https://master.bioconductor.org/shields/build/release/workflows/recountWorkflow.svg)](http://bioconductor.org/checkResults/release/workflows-LATEST/recountWorkflow/)
+[![BioC dev status](https://master.bioconductor.org/shields/build/devel/workflows/recountWorkflow.svg)](http://bioconductor.org/checkResults/devel/workflows-LATEST/recountWorkflow/)
+[![R build status](https://github.com/LieberInstitute/recountWorkflow/workflows/R-CMD-check-bioc/badge.svg)](https://github.com/LieberInstitute/recountWorkflow/actions)
+[![Support site activity, last 6 months: tagged questions/avg. answers per question/avg. comments per question/accepted answers, or 0 if no tagged posts.](http://www.bioconductor.org/shields/posts/recountWorkflow.svg)](https://support.bioconductor.org/t/recountWorkflow/)
+[![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/recountWorkflow)](https://github.com/LieberInstitute/recountWorkflow/issues)
+
+## Contributor
+
+* `r Biocpkg("brainflowprobes")`
+
+[![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
+[![BioC status](http://www.bioconductor.org/shields/build/release/bioc/brainflowprobes.svg)](https://bioconductor.org/checkResults/release/bioc-LATEST/brainflowprobes)
+[![BioC dev status](http://www.bioconductor.org/shields/build/devel/bioc/brainflowprobes.svg)](https://bioconductor.org/checkResults/devel/bioc-LATEST/brainflowprobes)
+[![Codecov test coverage](https://codecov.io/gh/LieberInstitute/brainflowprobes/branch/master/graph/badge.svg)](https://codecov.io/gh/LieberInstitute/brainflowprobes?branch=master)
+[![R build status](https://github.com/LieberInstitute/brainflowprobes/workflows/R-CMD-check-bioc/badge.svg)](https://github.com/LieberInstitute/brainflowprobes/actions)
+[![Support site activity, last 6 months: tagged questions/avg. answers per question/avg. comments per question/accepted answers, or 0 if no tagged posts.](http://www.bioconductor.org/shields/posts/brainflowprobes.svg)](https://support.bioconductor.org/t/brainflowprobes/)
+[![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/brainflowprobes)](https://github.com/LieberInstitute/brainflowprobes/issues)
+
+* `r Biocpkg("regutools")`
+
+[![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
+[![BioC status](http://www.bioconductor.org/shields/build/release/bioc/regutools.svg)](https://bioconductor.org/checkResults/release/bioc-LATEST/regutools)
+[![BioC dev status](http://www.bioconductor.org/shields/build/devel/bioc/regutools.svg)](https://bioconductor.org/checkResults/devel/bioc-LATEST/regutools)
+[![Codecov test coverage](https://codecov.io/gh/ComunidadBioInfo/regutools/branch/master/graph/badge.svg)](https://codecov.io/gh/ComunidadBioInfo/regutools?branch=master)
+[![R build status](https://github.com/ComunidadBioInfo/regutools/workflows/R-CMD-check-bioc/badge.svg)](https://github.com/ComunidadBioInfo/regutools/actions)
+[![Support site activity, last 6 months: tagged questions/avg. answers per question/avg. comments per question/accepted answers, or 0 if no tagged posts.](http://www.bioconductor.org/shields/posts/regutools.svg)](https://support.bioconductor.org/t/regutools/)
+[![GitHub issues](https://img.shields.io/github/issues/comunidadbioinfo/regutools)](https://github.com/comunidadbioinfo/regutools/issues)
+
+# GitHub
+
+* `r Githubpkg("lcolladotor/biocthis")`
+
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+[![BioC status](http://www.bioconductor.org/shields/build/release/bioc/biocthis.svg)](https://bioconductor.org/checkResults/release/bioc-LATEST/biocthis)
+[![BioC dev status](http://www.bioconductor.org/shields/build/devel/bioc/biocthis.svg)](https://bioconductor.org/checkResults/devel/bioc-LATEST/biocthis)
+[![R build status](https://github.com/lcolladotor/biocthis/workflows/R-CMD-check-bioc/badge.svg)](https://github.com/lcolladotor/biocthis/actions)
+[![Codecov test coverage](https://codecov.io/gh/lcolladotor/biocthis/branch/master/graph/badge.svg)](https://codecov.io/gh/lcolladotor/biocthis?branch=master)
+[![Support site activity, last 6 months: tagged questions/avg. answers per question/avg. comments per question/accepted answers, or 0 if no tagged posts.](http://www.bioconductor.org/shields/posts/biocthis.svg)](https://support.bioconductor.org/t/biocthis/)
+[![GitHub issues](https://img.shields.io/github/issues/lcolladotor/biocthis)](https://github.com/lcolladotor/biocthis/issues)
+
+`r Githubpkg("lcolladotor/dots")`
+
+[![GitHub issues](https://img.shields.io/github/issues/lcolladotor/dots)](https://github.com/lcolladotor/dots/issues)
+
+* `r Githubpkg("leekgroup/enrichedRanges")`
+
+[![GitHub issues](https://img.shields.io/github/issues/leekgroup/enrichedRanges)](https://github.com/leekgroup/enrichedRanges/issues)
+
+* `r Githubpkg("LieberInstitute/jaffelab")`
+
+[![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/jaffelab)](https://github.com/LieberInstitute/jaffelab/issues)
+
+* `r Githubpkg("LieberInstitute/libdRSE")`
+
+[![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/libdRSE)](https://github.com/LieberInstitute/libdRSE/issues)
+
+* `r Githubpkg("LieberInstitute/recount3")`
+
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+[![BioC status](http://www.bioconductor.org/shields/build/release/bioc/recount3.svg)](https://bioconductor.org/checkResults/release/bioc-LATEST/recount3)
+[![BioC dev status](http://www.bioconductor.org/shields/build/devel/bioc/recount3.svg)](https://bioconductor.org/checkResults/devel/bioc-LATEST/recount3)
+[![Codecov test coverage](https://codecov.io/gh/LieberInstitute/recount3/branch/master/graph/badge.svg)](https://codecov.io/gh/LieberInstitute/recount3?branch=master)
+[![R build status](https://github.com/LieberInstitute/recount3/workflows/R-CMD-check-bioc/badge.svg)](https://github.com/LieberInstitute/recount3/actions)
+[![Support site activity, last 6 months: tagged questions/avg. answers per question/avg. comments per question/accepted answers, or 0 if no tagged posts.](http://www.bioconductor.org/shields/posts/recount3.svg)](https://support.bioconductor.org/t/recount3/)
+[![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/recount3)](https://github.com/LieberInstitute/recount3/issues)
+
+* `r Githubpkg("LieberInstitute/sgejobs")`
+
+[![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/sgejobs)](https://github.com/LieberInstitute/sgejobs/issues)
+
+* `r Githubpkg("LieberInstitute/shinycsv")`
+
+[![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/shinycsv)](https://github.com/LieberInstitute/shinycsv/issues)
+
+
+# Non R-packages
+
+Note: some of these GitHub repositories are currently private but will eventually become public.
+
+## LIBD
+
+* `r Githubpkg("LieberInstitute/brain-epigenomics")`
+
+[![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/brain-epigenomics)](https://github.com/LieberInstitute/brain-epigenomics/issues)
+
+* `r Githubpkg("LieberInstitute/brainseq_phase2")`
+
+[![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/brainseq_phase2)](https://github.com/LieberInstitute/brainseq_phase2/issues)
+
+* `r Githubpkg("LieberInstitute/dbFinder")`
+
+[![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/dbFinder)](https://github.com/LieberInstitute/dbFinder/issues)
+
+* `r Githubpkg("LieberInstitute/globus")`
+
+[![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/globus)](https://github.com/LieberInstitute/globus/issues)
+
+* `r Githubpkg("LieberInstitute/goesHyde_mdd_rnaseq")`
+
+[![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/goesHyde_mdd_rnaseq)](https://github.com/LieberInstitute/goesHyde_mdd_rnaseq/issues)
+
+* `r Githubpkg("LieberInstitute/HumanPilot")`
+
+[![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/HumanPilot)](https://github.com/LieberInstitute/HumanPilot/issues)
+
+* `r Githubpkg("LieberInstitute/jaffe_onboarding")`
+
+[![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/jaffe_onboarding)](https://github.com/LieberInstitute/jaffe_onboarding/issues)
+
+* `r Githubpkg("LieberInstitute/jhpce_module_config")`
+
+[![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/jhpce_module_config)](https://github.com/LieberInstitute/jhpce_module_config/issues)
+
+* `r Githubpkg("LieberInstitute/jhpce_mod_source")`
+
+[![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/jhpce_mod_source)](https://github.com/LieberInstitute/jhpce_mod_source/issues)
+
+* `r Githubpkg("LieberInstitute/qsva_brain")`
+
+[![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/qsva_brain)](https://github.com/LieberInstitute/qsva_brain/issues)
+
+* `r Githubpkg("LieberInstitute/SPEAQeasy")`
+
+[![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/SPEAQeasy)](https://github.com/LieberInstitute/SPEAQeasy/issues)
+
+* `r Githubpkg("LieberInstitute/twas")`
+
+[![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/twas)](https://github.com/LieberInstitute/twas/issues)
+
+
+* `r Githubpkg("LieberInstitute/zandiHyde_bipolar_rnaseq")`
+
+[![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/zandiHyde_bipolar_rnaseq)](https://github.com/LieberInstitute/zandiHyde_bipolar_rnaseq/issues)
+
+## `recount2` related
+
+* `r Githubpkg("LieberInstitute/expr_shape")`
+
+[![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/expr_shape)](https://github.com/LieberInstitute/expr_shape/issues)
+
+* `r Githubpkg("LieberInstitute/insp")`
+
+[![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/insp)](https://github.com/LieberInstitute/insp/issues)
+
+* `r Githubpkg("LieberInstitute/marchionni_projects")`
+
+[![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/marchionni_projects)](https://github.com/LieberInstitute/marchionni_projects/issues)
+
+* `r Githubpkg("leekgroup/recount-analyses")`
+
+[![GitHub issues](https://img.shields.io/github/issues/leekgroup/recount-analyses)](https://github.com/leekgroup/recount-analyses/issues)
+
+* `r Githubpkg("LieberInstitute/recount-brain")`
+
+[![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/recount-brain)](https://github.com/LieberInstitute/recount-brain/issues)
+
+* `r Githubpkg("LieberInstitute/recount.bwtool")`
+
+[![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/recount.bwtool)](https://github.com/LieberInstitute/recount.bwtool/issues)
+
+* `r Githubpkg("leekgroup/recount-contributions")`
+
+[![GitHub issues](https://img.shields.io/github/issues/leekgroup/recount-contributions)](https://github.com/leekgroup/recount-contributions/issues)
+
+* `r Githubpkg("leekgroup/recount-website")`
+
+[![GitHub issues](https://img.shields.io/github/issues/leekgroup/recount-website)](https://github.com/leekgroup/recount-website/issues)
+
+* `r Githubpkg("LieberInstitute/recount_pandey")`
+
+[![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/recount_pandey)](https://github.com/LieberInstitute/recount_pandey/issues)
+
+* `r Githubpkg("LieberInstitute/recountWorkshop")`
+
+[![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/recountWorkshop)](https://github.com/LieberInstitute/recountWorkshop/issues)
+
+* `r Githubpkg("LieberInstitute/recountWorkshop2019")`
+
+[![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/recountWorkshop2019)](https://github.com/LieberInstitute/recountWorkshop2019/issues)
+
+* `r Githubpkg("LieberInstitute/recountWorkshop2020")`
+
+[![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/recountWorkshop2020)](https://github.com/LieberInstitute/recountWorkshop2020/issues)
+
+* `r Githubpkg("LieberInstitute/ryten_work")`
+
+[![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/ryten_work)](https://github.com/LieberInstitute/ryten_work/issues)
+
+## `derfinder` related
+
+* `r Githubpkg("leekgroup/derSoftware")`
+
+[![GitHub issues](https://img.shields.io/github/issues/leekgroup/derSoftware)](https://github.com/leekgroup/derSoftware/issues)
+
+* `r Githubpkg("leekgroup/derSupplement")`
+
+[![GitHub issues](https://img.shields.io/github/issues/leekgroup/derSupplement)](https://github.com/leekgroup/derSupplement/issues)
+
+* `r Githubpkg("leekgroup/libd_n36")`
+
+[![GitHub issues](https://img.shields.io/github/issues/leekgroup/libd_n36)](https://github.com/leekgroup/libd_n36/issues)
+
+* `r Githubpkg("leekgroup/regionReportSupp")`
+
+[![GitHub issues](https://img.shields.io/github/issues/leekgroup/regionReportSupp)](https://github.com/leekgroup/regionReportSupp/issues)
+
+
+
+# Misc
+
+`r Githubpkg("comunidadbioinfo/cdsbsource")`
+
+[![GitHub issues](https://img.shields.io/github/issues/comunidadbioinfo/cdsbsource)](https://github.com/comunidadbioinfo/cdsbsource/issues)
+
+`r Githubpkg("lcolladotor/config_jhpce")`
+
+[![GitHub issues](https://img.shields.io/github/issues/lcolladotor/config_jhpce)](https://github.com/lcolladotor/config_jhpce/issues)
+
+`r Githubpkg("lcolladotor/cv")`
+
+[![GitHub issues](https://img.shields.io/github/issues/lcolladotor/cv)](https://github.com/lcolladotor/cv/issues)
+
+`r Githubpkg("lcolladotor/jhu-thesis-template")`
+
+[![GitHub issues](https://img.shields.io/github/issues/lcolladotor/jhu-thesis-template)](https://github.com/lcolladotor/jhu-thesis-template/issues)
+
+`r Githubpkg("lcolladotor/lcolladotorsource")`
+
+[![GitHub issues](https://img.shields.io/github/issues/lcolladotor/lcolladotorsource)](https://github.com/lcolladotor/lcolladotorsource/issues)
+
+`r Githubpkg("lcolladotor/pkgs")`
+
+[![GitHub issues](https://img.shields.io/github/issues/lcolladotor/pkgs)](https://github.com/lcolladotor/pkgs/issues)
+
+
+
+# Session info {.unnumbered}
+
+```{r sessionInfo, echo=FALSE}
+options(width = 120)
+session_info()
+```
