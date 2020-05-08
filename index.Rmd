@@ -11,7 +11,9 @@ output:
 abstract: |
   I like to check my R packages using GitHub Actions, Bioconductor and other
   tools. This small website helps me see the status of the packages I've made
-  without having to navigate to a bunch of other websites.
+  without having to navigate to a bunch of other websites. This website also
+  helps me keep track of project repositories I've made where users might
+  ask questions.
 vignette: |
   %\VignetteIndexEntry{R packages by L. Collado-Torres"}
   %\VignetteEngine{knitr::rmarkdown}
