@@ -13,13 +13,22 @@
 
 <title>R packages by L. Collado-Torres</title>
 
-<script src="index_files/header-attrs-2.6/header-attrs.js"></script>
+<script src="index_files/header-attrs-2.9/header-attrs.js"></script>
 <script src="index_files/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="index_files/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
 <script src="index_files/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="index_files/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="index_files/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="index_files/jqueryui-1.11.4/jquery-ui.min.js"></script>
 <link href="index_files/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="index_files/tocify-1.9.1/jquery.tocify.js"></script>
@@ -37,11 +46,6 @@
     </style>
 
 <style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -64,32 +68,6 @@ if (window.hljs) {
   }
 </style>
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
 
 
 
@@ -100,10 +78,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -120,6 +94,9 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+pre code {
+  padding: 0;
+}
 </style>
 
 
@@ -132,7 +109,6 @@ summary {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -264,7 +240,7 @@ div.tocify {
 
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row-fluid">
+<div class="row">
 <div class="col-xs-12 col-sm-4 col-md-3">
 <div id="TOC" class="tocify">
 </div>
@@ -275,7 +251,7 @@ div.tocify {
 
 
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -299,60 +275,60 @@ Lieber Institute for Brain Development, Johns Hopkins Medical CampusCenter for C
 <div id="software" class="section level3">
 <h3>Software</h3>
 <ul>
-<li><em><a href="https://bioconductor.org/packages/3.12/biocthis">biocthis</a></em></li>
+<li><em><a href="https://bioconductor.org/packages/3.13/biocthis">biocthis</a></em></li>
 </ul>
 <p><a href="https://www.tidyverse.org/lifecycle/#maturing"><img src="https://img.shields.io/badge/lifecycle-maturing-blue.svg" alt="Lifecycle: maturing" /></a> <a href="https://bioconductor.org/checkResults/release/bioc-LATEST/biocthis"><img src="http://www.bioconductor.org/shields/build/release/bioc/biocthis.svg" alt="BioC status" /></a> <a href="https://bioconductor.org/checkResults/devel/bioc-LATEST/biocthis"><img src="http://www.bioconductor.org/shields/build/devel/bioc/biocthis.svg" alt="BioC dev status" /></a> <a href="https://codecov.io/gh/lcolladotor/biocthis?branch=master"><img src="https://codecov.io/gh/lcolladotor/biocthis/branch/master/graph/badge.svg" alt="Codecov test coverage" /></a> <a href="https://github.com/lcolladotor/biocthis/actions"><img src="https://github.com/lcolladotor/biocthis/workflows/R-CMD-check-bioc/badge.svg" alt="R build status" /></a> <a href="https://support.bioconductor.org/t/biocthis/"><img src="http://www.bioconductor.org/shields/posts/biocthis.svg" alt="Support site activity, last 6 months: tagged questions/avg. answers per question/avg. comments per question/accepted answers, or 0 if no tagged posts." /></a> <a href="https://github.com/lcolladotor/biocthis/issues"><img src="https://img.shields.io/github/issues/lcolladotor/biocthis" alt="GitHub issues" /></a></p>
 <ul>
-<li><em><a href="https://bioconductor.org/packages/3.12/derfinder">derfinder</a></em></li>
+<li><em><a href="https://bioconductor.org/packages/3.13/derfinder">derfinder</a></em></li>
 </ul>
 <p><a href="https://www.tidyverse.org/lifecycle/#stable"><img src="https://img.shields.io/badge/lifecycle-stable-brightgreen.svg" alt="Lifecycle: stable" /></a> <a href="https://bioconductor.org/checkResults/release/bioc-LATEST/derfinder"><img src="http://www.bioconductor.org/shields/build/release/bioc/derfinder.svg" alt="BioC status" /></a> <a href="https://bioconductor.org/checkResults/devel/bioc-LATEST/derfinder"><img src="http://www.bioconductor.org/shields/build/devel/bioc/derfinder.svg" alt="BioC dev status" /></a> <a href="https://codecov.io/gh/lcolladotor/derfinder?branch=master"><img src="https://codecov.io/gh/lcolladotor/derfinder/branch/master/graph/badge.svg" alt="Codecov test coverage" /></a> <a href="https://github.com/lcolladotor/derfinder/actions"><img src="https://github.com/lcolladotor/derfinder/workflows/R-CMD-check-bioc/badge.svg" alt="R build status" /></a> <a href="https://support.bioconductor.org/t/derfinder/"><img src="http://www.bioconductor.org/shields/posts/derfinder.svg" alt="Support site activity, last 6 months: tagged questions/avg. answers per question/avg. comments per question/accepted answers, or 0 if no tagged posts." /></a> <a href="https://github.com/lcolladotor/derfinder/issues"><img src="https://img.shields.io/github/issues/lcolladotor/derfinder" alt="GitHub issues" /></a></p>
 <ul>
-<li><em><a href="https://bioconductor.org/packages/3.12/derfinderHelper">derfinderHelper</a></em></li>
+<li><em><a href="https://bioconductor.org/packages/3.13/derfinderHelper">derfinderHelper</a></em></li>
 </ul>
 <p><a href="https://www.tidyverse.org/lifecycle/#stable"><img src="https://img.shields.io/badge/lifecycle-stable-brightgreen.svg" alt="Lifecycle: stable" /></a> <a href="https://bioconductor.org/checkResults/release/bioc-LATEST/derfinderHelper"><img src="http://www.bioconductor.org/shields/build/release/bioc/derfinderHelper.svg" alt="BioC status" /></a> <a href="https://bioconductor.org/checkResults/devel/bioc-LATEST/derfinderHelper"><img src="http://www.bioconductor.org/shields/build/devel/bioc/derfinderHelper.svg" alt="BioC dev status" /></a> <a href="https://codecov.io/gh/leekgroup/derfinderHelper?branch=master"><img src="https://codecov.io/gh/leekgroup/derfinderHelper/branch/master/graph/badge.svg" alt="Codecov test coverage" /></a> <a href="https://github.com/leekgroup/derfinderHelper/actions"><img src="https://github.com/leekgroup/derfinderHelper/workflows/R-CMD-check-bioc/badge.svg" alt="R build status" /></a> <a href="https://support.bioconductor.org/t/derfinderHelper/"><img src="http://www.bioconductor.org/shields/posts/derfinderHelper.svg" alt="Support site activity, last 6 months: tagged questions/avg. answers per question/avg. comments per question/accepted answers, or 0 if no tagged posts." /></a> <a href="https://github.com/leekgroup/derfinderHelper/issues"><img src="https://img.shields.io/github/issues/leekgroup/derfinderHelper" alt="GitHub issues" /></a></p>
 <ul>
-<li><em><a href="https://bioconductor.org/packages/3.12/derfinderPlot">derfinderPlot</a></em></li>
+<li><em><a href="https://bioconductor.org/packages/3.13/derfinderPlot">derfinderPlot</a></em></li>
 </ul>
 <p><a href="https://www.tidyverse.org/lifecycle/#stable"><img src="https://img.shields.io/badge/lifecycle-stable-brightgreen.svg" alt="Lifecycle: stable" /></a> <a href="https://bioconductor.org/checkResults/release/bioc-LATEST/derfinderPlot"><img src="http://www.bioconductor.org/shields/build/release/bioc/derfinderPlot.svg" alt="BioC status" /></a> <a href="https://bioconductor.org/checkResults/devel/bioc-LATEST/derfinderPlot"><img src="http://www.bioconductor.org/shields/build/devel/bioc/derfinderPlot.svg" alt="BioC dev status" /></a> <a href="https://codecov.io/gh/leekgroup/derfinderPlot?branch=master"><img src="https://codecov.io/gh/leekgroup/derfinderPlot/branch/master/graph/badge.svg" alt="Codecov test coverage" /></a> <a href="https://github.com/leekgroup/derfinderPlot/actions"><img src="https://github.com/leekgroup/derfinderPlot/workflows/R-CMD-check-bioc/badge.svg" alt="R build status" /></a> <a href="https://support.bioconductor.org/t/derfinderPlot/"><img src="http://www.bioconductor.org/shields/posts/derfinderPlot.svg" alt="Support site activity, last 6 months: tagged questions/avg. answers per question/avg. comments per question/accepted answers, or 0 if no tagged posts." /></a> <a href="https://github.com/leekgroup/derfinderPlot/issues"><img src="https://img.shields.io/github/issues/leekgroup/derfinderPlot" alt="GitHub issues" /></a></p>
 <ul>
-<li><em><a href="https://bioconductor.org/packages/3.12/megadepth">megadepth</a></em></li>
+<li><em><a href="https://bioconductor.org/packages/3.13/megadepth">megadepth</a></em></li>
 </ul>
 <p><a href="https://www.tidyverse.org/lifecycle/#maturing"><img src="https://img.shields.io/badge/lifecycle-maturing-blue.svg" alt="Lifecycle: maturing" /></a> <a href="https://bioconductor.org/checkResults/release/bioc-LATEST/megadepth"><img src="http://www.bioconductor.org/shields/build/release/bioc/megadepth.svg" alt="BioC status" /></a> <a href="https://bioconductor.org/checkResults/devel/bioc-LATEST/megadepth"><img src="http://www.bioconductor.org/shields/build/devel/bioc/megadepth.svg" alt="BioC dev status" /></a> <a href="https://codecov.io/gh/LieberInstitute/megadepth?branch=master"><img src="https://codecov.io/gh/LieberInstitute/megadepth/branch/master/graph/badge.svg" alt="Codecov test coverage" /></a> <a href="https://github.com/LieberInstitute/megadepth/actions"><img src="https://github.com/LieberInstitute/megadepth/workflows/R-CMD-check-bioc/badge.svg" alt="R build status" /></a> <a href="https://support.bioconductor.org/t/megadepth/"><img src="http://www.bioconductor.org/shields/posts/megadepth.svg" alt="Support site activity, last 6 months: tagged questions/avg. answers per question/avg. comments per question/accepted answers, or 0 if no tagged posts." /></a> <a href="https://github.com/LieberInstitute/megadepth/issues"><img src="https://img.shields.io/github/issues/LieberInstitute/megadepth" alt="GitHub issues" /></a></p>
 <ul>
-<li><em><a href="https://bioconductor.org/packages/3.12/recount">recount</a></em></li>
+<li><em><a href="https://bioconductor.org/packages/3.13/recount">recount</a></em></li>
 </ul>
 <p><a href="https://www.tidyverse.org/lifecycle/#stable"><img src="https://img.shields.io/badge/lifecycle-stable-brightgreen.svg" alt="Lifecycle: stable" /></a> <a href="https://bioconductor.org/checkResults/release/bioc-LATEST/recount"><img src="http://www.bioconductor.org/shields/build/release/bioc/recount.svg" alt="BioC status" /></a> <a href="https://bioconductor.org/checkResults/devel/bioc-LATEST/recount"><img src="http://www.bioconductor.org/shields/build/devel/bioc/recount.svg" alt="BioC dev status" /></a> <a href="https://codecov.io/gh/leekgroup/recount?branch=master"><img src="https://codecov.io/gh/leekgroup/recount/branch/master/graph/badge.svg" alt="Codecov test coverage" /></a> <a href="https://github.com/leekgroup/recount/actions"><img src="https://github.com/leekgroup/recount/workflows/R-CMD-check-bioc/badge.svg" alt="R build status" /></a> <a href="https://support.bioconductor.org/t/recount/"><img src="http://www.bioconductor.org/shields/posts/recount.svg" alt="Support site activity, last 6 months: tagged questions/avg. answers per question/avg. comments per question/accepted answers, or 0 if no tagged posts." /></a> <a href="https://github.com/leekgroup/recount/issues"><img src="https://img.shields.io/github/issues/leekgroup/recount" alt="GitHub issues" /></a></p>
 <ul>
-<li><em><a href="https://bioconductor.org/packages/3.12/recount3">recount3</a></em></li>
+<li><em><a href="https://bioconductor.org/packages/3.13/recount3">recount3</a></em></li>
 </ul>
-<p><a href="https://www.tidyverse.org/lifecycle/#maturing"><img src="https://img.shields.io/badge/lifecycle-maturing-blue.svg" alt="Lifecycle: maturing" /></a> <a href="https://bioconductor.org/checkResults/release/bioc-LATEST/recount3"><img src="http://www.bioconductor.org/shields/build/release/bioc/recount3.svg" alt="BioC status" /></a> <a href="https://bioconductor.org/checkResults/devel/bioc-LATEST/recount3"><img src="http://www.bioconductor.org/shields/build/devel/bioc/recount3.svg" alt="BioC dev status" /></a> <a href="https://codecov.io/gh/LieberInstitute/recount3?branch=master"><img src="https://codecov.io/gh/LieberInstitute/recount3/branch/master/graph/badge.svg" alt="Codecov test coverage" /></a> <a href="https://github.com/LieberInstitute/recount3/actions"><img src="https://github.com/LieberInstitute/recount3/workflows/R-CMD-check-bioc/badge.svg" alt="R build status" /></a> <a href="https://support.bioconductor.org/t/recount3/"><img src="http://www.bioconductor.org/shields/posts/recount3.svg" alt="Support site activity, last 6 months: tagged questions/avg. answers per question/avg. comments per question/accepted answers, or 0 if no tagged posts." /></a> <a href="https://github.com/LieberInstitute/recount3/issues"><img src="https://img.shields.io/github/issues/LieberInstitute/recount3" alt="GitHub issues" /></a></p>
+<p><a href="https://lifecycle.r-lib.org/articles/stages.html#stable"><img src="https://img.shields.io/badge/lifecycle-stable-brightgreen.svg" alt="Lifecycle: stable" /></a> <a href="https://bioconductor.org/checkResults/release/bioc-LATEST/recount3"><img src="http://www.bioconductor.org/shields/build/release/bioc/recount3.svg" alt="BioC status" /></a> <a href="https://bioconductor.org/checkResults/devel/bioc-LATEST/recount3"><img src="http://www.bioconductor.org/shields/build/devel/bioc/recount3.svg" alt="BioC dev status" /></a> <a href="https://codecov.io/gh/LieberInstitute/recount3?branch=master"><img src="https://codecov.io/gh/LieberInstitute/recount3/branch/master/graph/badge.svg" alt="Codecov test coverage" /></a> <a href="https://github.com/LieberInstitute/recount3/actions"><img src="https://github.com/LieberInstitute/recount3/workflows/R-CMD-check-bioc/badge.svg" alt="R build status" /></a> <a href="https://support.bioconductor.org/t/recount3/"><img src="http://www.bioconductor.org/shields/posts/recount3.svg" alt="Support site activity, last 6 months: tagged questions/avg. answers per question/avg. comments per question/accepted answers, or 0 if no tagged posts." /></a> <a href="https://github.com/LieberInstitute/recount3/issues"><img src="https://img.shields.io/github/issues/LieberInstitute/recount3" alt="GitHub issues" /></a></p>
 <ul>
-<li><em><a href="https://bioconductor.org/packages/3.12/regionReport">regionReport</a></em></li>
+<li><em><a href="https://bioconductor.org/packages/3.13/regionReport">regionReport</a></em></li>
 </ul>
 <p><a href="https://www.tidyverse.org/lifecycle/#stable"><img src="https://img.shields.io/badge/lifecycle-stable-brightgreen.svg" alt="Lifecycle: stable" /></a> <a href="https://bioconductor.org/checkResults/release/bioc-LATEST/regionReport"><img src="http://www.bioconductor.org/shields/build/release/bioc/regionReport.svg" alt="BioC status" /></a> <a href="https://bioconductor.org/checkResults/devel/bioc-LATEST/regionReport"><img src="http://www.bioconductor.org/shields/build/devel/bioc/regionReport.svg" alt="BioC dev status" /></a> <a href="https://github.com/leekgroup/regionReport/actions"><img src="https://github.com/leekgroup/regionReport/workflows/R-CMD-check-bioc/badge.svg" alt="R build status" /></a> <a href="https://support.bioconductor.org/t/regionReport/"><img src="http://www.bioconductor.org/shields/posts/regionReport.svg" alt="Support site activity, last 6 months: tagged questions/avg. answers per question/avg. comments per question/accepted answers, or 0 if no tagged posts." /></a> <a href="https://github.com/leekgroup/regionReport/issues"><img src="https://img.shields.io/github/issues/leekgroup/regionReport" alt="GitHub issues" /></a></p>
 </div>
 <div id="annotation" class="section level3">
 <h3>Annotation</h3>
 <ul>
-<li><em><a href="https://bioconductor.org/packages/3.12/GenomicState">GenomicState</a></em></li>
+<li><em><a href="https://bioconductor.org/packages/3.13/GenomicState">GenomicState</a></em></li>
 </ul>
 <p><a href="https://www.tidyverse.org/lifecycle/#stable"><img src="https://img.shields.io/badge/lifecycle-stable-brightgreen.svg" alt="Lifecycle: stable" /></a> <a href="http://bioconductor.org/packages/release/data/annotation/html/GenomicState.html#archives"><img src="http://bioconductor.org/images/shields/availability/all.svg" alt="BioC status" /></a> <a href="https://codecov.io/gh/LieberInstitute/GenomicState?branch=master"><img src="https://codecov.io/gh/LieberInstitute/GenomicState/branch/master/graph/badge.svg" alt="Codecov test coverage" /></a> <a href="https://github.com/LieberInstitute/GenomicState/actions"><img src="https://github.com/LieberInstitute/GenomicState/workflows/R-CMD-check-bioc/badge.svg" alt="R build status" /></a> <a href="https://support.bioconductor.org/t/GenomicState/"><img src="http://www.bioconductor.org/shields/posts/GenomicState.svg" alt="Support site activity, last 6 months: tagged questions/avg. answers per question/avg. comments per question/accepted answers, or 0 if no tagged posts." /></a> <a href="https://github.com/LieberInstitute/GenomicState/issues"><img src="https://img.shields.io/github/issues/LieberInstitute/GenomicState" alt="GitHub issues" /></a></p>
 </div>
 <div id="experiment-data" class="section level3">
 <h3>Experiment data</h3>
 <ul>
-<li><em><a href="https://bioconductor.org/packages/3.12/derfinderData">derfinderData</a></em></li>
+<li><em><a href="https://bioconductor.org/packages/3.13/derfinderData">derfinderData</a></em></li>
 </ul>
 <p><a href="https://www.tidyverse.org/lifecycle/#stable"><img src="https://img.shields.io/badge/lifecycle-stable-brightgreen.svg" alt="Lifecycle: stable" /></a> <a href="http://bioconductor.org/checkResults/release/data-experiment-LATEST/derfinderData/"><img src="http://bioconductor.org/shields/build/release/data-experiment/derfinderData.svg" alt="BioC status" /></a> <a href="http://bioconductor.org/checkResults/devel/data-experiment-LATEST/derfinderData/"><img src="http://bioconductor.org/shields/build/devel/data-experiment/derfinderData.svg" alt="BioC dev status" /></a> <a href="https://github.com/leekgroup/derfinderData/actions"><img src="https://github.com/leekgroup/derfinderData/workflows/R-CMD-check-bioc/badge.svg" alt="R build status" /></a> <a href="https://support.bioconductor.org/t/derfinderData/"><img src="http://www.bioconductor.org/shields/posts/derfinderData.svg" alt="Support site activity, last 6 months: tagged questions/avg. answers per question/avg. comments per question/accepted answers, or 0 if no tagged posts." /></a> <a href="https://github.com/leekgroup/derfinderData/issues"><img src="https://img.shields.io/github/issues/leekgroup/derfinderData" alt="GitHub issues" /></a></p>
 <ul>
-<li><em><a href="https://bioconductor.org/packages/3.12/spatialLIBD">spatialLIBD</a></em></li>
+<li><em><a href="https://bioconductor.org/packages/3.13/spatialLIBD">spatialLIBD</a></em></li>
 </ul>
 <p><a href="https://www.tidyverse.org/lifecycle/#stable"><img src="https://img.shields.io/badge/lifecycle-stable-brightgreen.svg" alt="Lifecycle: stable" /></a> <a href="http://bioconductor.org/checkResults/release/data-experiment-LATEST/spatialLIBD/"><img src="http://bioconductor.org/shields/build/release/data-experiment/spatialLIBD.svg" alt="BioC status" /></a> <a href="http://bioconductor.org/checkResults/devel/data-experiment-LATEST/spatialLIBD/"><img src="http://bioconductor.org/shields/build/devel/data-experiment/spatialLIBD.svg" alt="BioC dev status" /></a> <a href="https://codecov.io/gh/LieberInstitute/spatialLIBD?branch=master"><img src="https://codecov.io/gh/LieberInstitute/spatialLIBD/branch/master/graph/badge.svg" alt="Codecov test coverage" /></a> <a href="https://github.com/LieberInstitute/spatialLIBD/actions"><img src="https://github.com/LieberInstitute/spatialLIBD/workflows/R-CMD-check-bioc/badge.svg" alt="R build status" /></a> <a href="https://support.bioconductor.org/t/spatialLIBD/"><img src="http://www.bioconductor.org/shields/posts/spatialLIBD.svg" alt="Support site activity, last 6 months: tagged questions/avg. answers per question/avg. comments per question/accepted answers, or 0 if no tagged posts." /></a> <a href="https://github.com/LieberInstitute/spatialLIBD/issues"><img src="https://img.shields.io/github/issues/LieberInstitute/spatialLIBD" alt="GitHub issues" /></a></p>
 </div>
 <div id="workflow" class="section level3">
 <h3>Workflow</h3>
 <ul>
-<li><em><a href="https://bioconductor.org/packages/3.12/recountWorkflow">recountWorkflow</a></em></li>
+<li><em><a href="https://bioconductor.org/packages/3.13/recountWorkflow">recountWorkflow</a></em></li>
 </ul>
 <p><a href="https://www.tidyverse.org/lifecycle/#stable"><img src="https://img.shields.io/badge/lifecycle-stable-brightgreen.svg" alt="Lifecycle: stable" /></a> <a href="http://bioconductor.org/checkResults/release/workflows-LATEST/recountWorkflow/"><img src="https://master.bioconductor.org/shields/build/release/workflows/recountWorkflow.svg" alt="BioC status" /></a> <a href="http://bioconductor.org/checkResults/devel/workflows-LATEST/recountWorkflow/"><img src="https://master.bioconductor.org/shields/build/devel/workflows/recountWorkflow.svg" alt="BioC dev status" /></a> <a href="https://github.com/LieberInstitute/recountWorkflow/actions"><img src="https://github.com/LieberInstitute/recountWorkflow/workflows/R-CMD-check-bioc/badge.svg" alt="R build status" /></a> <a href="https://support.bioconductor.org/t/recountWorkflow/"><img src="http://www.bioconductor.org/shields/posts/recountWorkflow.svg" alt="Support site activity, last 6 months: tagged questions/avg. answers per question/avg. comments per question/accepted answers, or 0 if no tagged posts." /></a> <a href="https://github.com/LieberInstitute/recountWorkflow/issues"><img src="https://img.shields.io/github/issues/LieberInstitute/recountWorkflow" alt="GitHub issues" /></a></p>
 </div>
@@ -360,11 +336,11 @@ Lieber Institute for Brain Development, Johns Hopkins Medical CampusCenter for C
 <div id="contributor" class="section level2">
 <h2>Contributor</h2>
 <ul>
-<li><em><a href="https://bioconductor.org/packages/3.12/brainflowprobes">brainflowprobes</a></em></li>
+<li><em><a href="https://bioconductor.org/packages/3.13/brainflowprobes">brainflowprobes</a></em></li>
 </ul>
 <p><a href="https://www.tidyverse.org/lifecycle/#stable"><img src="https://img.shields.io/badge/lifecycle-stable-brightgreen.svg" alt="Lifecycle: stable" /></a> <a href="https://bioconductor.org/checkResults/release/bioc-LATEST/brainflowprobes"><img src="http://www.bioconductor.org/shields/build/release/bioc/brainflowprobes.svg" alt="BioC status" /></a> <a href="https://bioconductor.org/checkResults/devel/bioc-LATEST/brainflowprobes"><img src="http://www.bioconductor.org/shields/build/devel/bioc/brainflowprobes.svg" alt="BioC dev status" /></a> <a href="https://codecov.io/gh/LieberInstitute/brainflowprobes?branch=master"><img src="https://codecov.io/gh/LieberInstitute/brainflowprobes/branch/master/graph/badge.svg" alt="Codecov test coverage" /></a> <a href="https://github.com/LieberInstitute/brainflowprobes/actions"><img src="https://github.com/LieberInstitute/brainflowprobes/workflows/R-CMD-check-bioc/badge.svg" alt="R build status" /></a> <a href="https://support.bioconductor.org/t/brainflowprobes/"><img src="http://www.bioconductor.org/shields/posts/brainflowprobes.svg" alt="Support site activity, last 6 months: tagged questions/avg. answers per question/avg. comments per question/accepted answers, or 0 if no tagged posts." /></a> <a href="https://github.com/LieberInstitute/brainflowprobes/issues"><img src="https://img.shields.io/github/issues/LieberInstitute/brainflowprobes" alt="GitHub issues" /></a></p>
 <ul>
-<li><em><a href="https://bioconductor.org/packages/3.12/regutools">regutools</a></em></li>
+<li><em><a href="https://bioconductor.org/packages/3.13/regutools">regutools</a></em></li>
 </ul>
 <p><a href="https://www.tidyverse.org/lifecycle/#stable"><img src="https://img.shields.io/badge/lifecycle-stable-brightgreen.svg" alt="Lifecycle: stable" /></a> <a href="https://bioconductor.org/checkResults/release/bioc-LATEST/regutools"><img src="http://www.bioconductor.org/shields/build/release/bioc/regutools.svg" alt="BioC status" /></a> <a href="https://bioconductor.org/checkResults/devel/bioc-LATEST/regutools"><img src="http://www.bioconductor.org/shields/build/devel/bioc/regutools.svg" alt="BioC dev status" /></a> <a href="https://codecov.io/gh/ComunidadBioInfo/regutools?branch=master"><img src="https://codecov.io/gh/ComunidadBioInfo/regutools/branch/master/graph/badge.svg" alt="Codecov test coverage" /></a> <a href="https://github.com/ComunidadBioInfo/regutools/actions"><img src="https://github.com/ComunidadBioInfo/regutools/workflows/R-CMD-check-bioc/badge.svg" alt="R build status" /></a> <a href="https://support.bioconductor.org/t/regutools/"><img src="http://www.bioconductor.org/shields/posts/regutools.svg" alt="Support site activity, last 6 months: tagged questions/avg. answers per question/avg. comments per question/accepted answers, or 0 if no tagged posts." /></a> <a href="https://github.com/comunidadbioinfo/regutools/issues"><img src="https://img.shields.io/github/issues/comunidadbioinfo/regutools" alt="GitHub issues" /></a></p>
 </div>
@@ -552,7 +528,7 @@ Lieber Institute for Brain Development, Johns Hopkins Medical CampusCenter for C
 <h1 class="unnumbered">Session info</h1>
 <pre><code>#&gt; ─ Session info ───────────────────────────────────────────────────────────────────────────────────────────────────────
 #&gt;  setting  value                       
-#&gt;  version  R version 4.0.3 (2020-10-10)
+#&gt;  version  R version 4.1.0 (2021-05-18)
 #&gt;  os       macOS Big Sur 10.16         
 #&gt;  system   x86_64, darwin17.0          
 #&gt;  ui       X11                         
@@ -560,33 +536,35 @@ Lieber Institute for Brain Development, Johns Hopkins Medical CampusCenter for C
 #&gt;  collate  en_US.UTF-8                 
 #&gt;  ctype    en_US.UTF-8                 
 #&gt;  tz       America/New_York            
-#&gt;  date     2020-12-17                  
+#&gt;  date     2021-08-03                  
 #&gt; 
 #&gt; ─ Packages ───────────────────────────────────────────────────────────────────────────────────────────────────────────
 #&gt;  package     * version date       lib source                            
-#&gt;  assertthat    0.2.1   2019-03-21 [1] CRAN (R 4.0.2)                    
-#&gt;  BiocManager   1.30.10 2019-11-16 [1] CRAN (R 4.0.2)                    
-#&gt;  BiocStyle   * 2.18.1  2020-11-24 [1] Bioconductor                      
-#&gt;  cli           2.2.0   2020-11-20 [1] CRAN (R 4.0.2)                    
+#&gt;  BiocManager   1.30.16 2021-06-15 [1] CRAN (R 4.1.0)                    
+#&gt;  BiocStyle   * 2.20.2  2021-06-17 [1] Bioconductor                      
+#&gt;  bslib         0.2.5.1 2021-05-18 [1] CRAN (R 4.1.0)                    
+#&gt;  cli           3.0.1   2021-07-17 [1] CRAN (R 4.1.0)                    
 #&gt;  colorout      1.2-2   2020-11-03 [1] Github (jalvesaq/colorout@726d681)
-#&gt;  crayon        1.3.4   2017-09-16 [1] CRAN (R 4.0.2)                    
-#&gt;  digest        0.6.27  2020-10-24 [1] CRAN (R 4.0.2)                    
-#&gt;  evaluate      0.14    2019-05-28 [1] CRAN (R 4.0.1)                    
-#&gt;  fansi         0.4.1   2020-01-08 [1] CRAN (R 4.0.2)                    
-#&gt;  glue          1.4.2   2020-08-27 [1] CRAN (R 4.0.2)                    
-#&gt;  htmltools     0.5.0   2020-06-16 [1] CRAN (R 4.0.2)                    
-#&gt;  knitr         1.30    2020-09-22 [1] CRAN (R 4.0.2)                    
-#&gt;  magrittr      2.0.1   2020-11-17 [1] CRAN (R 4.0.2)                    
-#&gt;  rlang         0.4.9   2020-11-26 [1] CRAN (R 4.0.2)                    
-#&gt;  rmarkdown     2.6     2020-12-14 [1] CRAN (R 4.0.3)                    
-#&gt;  sessioninfo * 1.1.1   2018-11-05 [1] CRAN (R 4.0.2)                    
-#&gt;  stringi       1.5.3   2020-09-09 [1] CRAN (R 4.0.2)                    
-#&gt;  stringr       1.4.0   2019-02-10 [1] CRAN (R 4.0.2)                    
-#&gt;  withr         2.3.0   2020-09-22 [1] CRAN (R 4.0.2)                    
-#&gt;  xfun          0.19    2020-10-30 [1] CRAN (R 4.0.2)                    
-#&gt;  yaml          2.2.1   2020-02-01 [1] CRAN (R 4.0.2)                    
+#&gt;  digest        0.6.27  2020-10-24 [1] CRAN (R 4.1.0)                    
+#&gt;  evaluate      0.14    2019-05-28 [1] CRAN (R 4.1.0)                    
+#&gt;  htmltools     0.5.1.1 2021-01-22 [1] CRAN (R 4.1.0)                    
+#&gt;  jquerylib     0.1.4   2021-04-26 [1] CRAN (R 4.1.0)                    
+#&gt;  jsonlite      1.7.2   2020-12-09 [1] CRAN (R 4.1.0)                    
+#&gt;  knitr         1.33    2021-04-24 [1] CRAN (R 4.1.0)                    
+#&gt;  magrittr      2.0.1   2020-11-17 [1] CRAN (R 4.1.0)                    
+#&gt;  R6            2.5.0   2020-10-28 [1] CRAN (R 4.1.0)                    
+#&gt;  rlang         0.4.11  2021-04-30 [1] CRAN (R 4.1.0)                    
+#&gt;  rmarkdown     2.9     2021-06-15 [1] CRAN (R 4.1.0)                    
+#&gt;  rstudioapi    0.13    2020-11-12 [1] CRAN (R 4.1.0)                    
+#&gt;  sass          0.4.0   2021-05-12 [1] CRAN (R 4.1.0)                    
+#&gt;  sessioninfo * 1.1.1   2018-11-05 [1] CRAN (R 4.1.0)                    
+#&gt;  stringi       1.7.3   2021-07-16 [1] CRAN (R 4.1.0)                    
+#&gt;  stringr       1.4.0   2019-02-10 [1] CRAN (R 4.1.0)                    
+#&gt;  withr         2.4.2   2021-04-18 [1] CRAN (R 4.1.0)                    
+#&gt;  xfun          0.24    2021-06-15 [1] CRAN (R 4.1.0)                    
+#&gt;  yaml          2.2.1   2020-02-01 [1] CRAN (R 4.1.0)                    
 #&gt; 
-#&gt; [1] /Library/Frameworks/R.framework/Versions/4.0/Resources/library</code></pre>
+#&gt; [1] /Library/Frameworks/R.framework/Versions/4.1/Resources/library</code></pre>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-45299226-1"></script>
 <script>
@@ -633,7 +611,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
@@ -642,6 +620,9 @@ $(document).ready(function () {
 
 <script>
 $(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
 
     // move toc-ignore selectors from section div to header
     $('div.section.toc-ignore')
