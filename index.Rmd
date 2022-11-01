@@ -193,6 +193,17 @@ library("sessioninfo")
 [![GitHub issues](https://img.shields.io/github/issues/lmweber/OSTA-book)](https://github.com/lmweber/OSTA-book/issues)
 [![GitHub pulls](https://img.shields.io/github/issues-pr/lmweber/OSTA-book)](https://github.com/lmweber/OSTA-book/pulls)
 
+* `r Biocpkg("qsvaR")`
+
+[![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
+[![BioC status](http://www.bioconductor.org/shields/build/release/bioc/qsvaR.svg)](https://bioconductor.org/checkResults/release/bioc-LATEST/qsvaR)
+[![BioC dev status](http://www.bioconductor.org/shields/build/devel/bioc/qsvaR.svg)](https://bioconductor.org/checkResults/devel/bioc-LATEST/qsvaR)
+[![Codecov test coverage](https://codecov.io/gh/LieberInstitute/qsvaR/branch/main/graph/badge.svg)](https://codecov.io/gh/LieberInstitute/qsvaR?branch=main)
+[![R build status](https://github.com/LieberInstitute/qsvaR/workflows/R-CMD-check-bioc/badge.svg)](https://github.com/LieberInstitute/qsvaR/actions)
+[![Support site activity, last 6 months: tagged questions/avg. answers per question/avg. comments per question/accepted answers, or 0 if no tagged posts.](http://www.bioconductor.org/shields/posts/qsvaR.svg)](https://support.bioconductor.org/t/qsvaR/)
+[![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/qsvaR)](https://github.com/LieberInstitute/qsvaR/issues)
+[![GitHub pulls](https://img.shields.io/github/issues-pr/LieberInstitute/qsvaR)](https://github.com/LieberInstitute/qsvaR/pulls)
+
 * `r Biocpkg("regutools")`
 
 [![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
@@ -203,6 +214,17 @@ library("sessioninfo")
 [![Support site activity, last 6 months: tagged questions/avg. answers per question/avg. comments per question/accepted answers, or 0 if no tagged posts.](http://www.bioconductor.org/shields/posts/regutools.svg)](https://support.bioconductor.org/t/regutools/)
 [![GitHub issues](https://img.shields.io/github/issues/comunidadbioinfo/regutools)](https://github.com/comunidadbioinfo/regutools/issues)
 [![GitHub pulls](https://img.shields.io/github/issues-pr/comunidadbioinfo/regutools)](https://github.com/comunidadbioinfo/regutools/pulls)
+
+* `r Biocpkg("TREG")`
+
+[![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
+[![BioC status](http://www.bioconductor.org/shields/build/release/bioc/TREG.svg)](https://bioconductor.org/checkResults/release/bioc-LATEST/TREG)
+[![BioC dev status](http://www.bioconductor.org/shields/build/devel/bioc/TREG.svg)](https://bioconductor.org/checkResults/devel/bioc-LATEST/TREG)
+[![Codecov test coverage](https://codecov.io/gh/LieberInstitute/TREG/branch/main/graph/badge.svg)](https://codecov.io/gh/LieberInstitute/TREG?branch=main)
+[![R build status](https://github.com/LieberInstitute/TREG/workflows/R-CMD-check-bioc/badge.svg)](https://github.com/LieberInstitute/TREG/actions)
+[![Support site activity, last 6 months: tagged questions/avg. answers per question/avg. comments per question/accepted answers, or 0 if no tagged posts.](http://www.bioconductor.org/shields/posts/TREG.svg)](https://support.bioconductor.org/t/TREG/)
+[![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/TREG)](https://github.com/LieberInstitute/TREG/issues)
+[![GitHub pulls](https://img.shields.io/github/issues-pr/LieberInstitute/TREG)](https://github.com/LieberInstitute/TREG/pulls)
 
 # GitHub
 
