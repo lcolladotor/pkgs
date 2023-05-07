@@ -249,6 +249,7 @@ library("sessioninfo")
 
 [![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/jaffelab)](https://github.com/LieberInstitute/jaffelab/issues)
 [![GitHub pulls](https://img.shields.io/github/issues-pr/LieberInstitute/jaffelab)](https://github.com/LieberInstitute/jaffelab/pulls)
+[![R build status](https://github.com/LieberInstitute/jaffelab/workflows/R-CMD-check-bioc/badge.svg)](https://github.com/LieberInstitute/jaffelab/actions)
 
 <!--
 * `r Githubpkg("LieberInstitute/libdRSE")`
@@ -261,11 +262,13 @@ library("sessioninfo")
 
 [![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/sgejobs)](https://github.com/LieberInstitute/sgejobs/issues)
 [![GitHub pulls](https://img.shields.io/github/issues-pr/LieberInstitute/sgejobs)](https://github.com/LieberInstitute/sgejobs/pulls)
+[![R build status](https://github.com/LieberInstitute/sgejobs/workflows/R-CMD-check-bioc/badge.svg)](https://github.com/LieberInstitute/sgejobs/actions)
 
 * `r Githubpkg("LieberInstitute/shinycsv")`
 
 [![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/shinycsv)](https://github.com/LieberInstitute/shinycsv/issues)
 [![GitHub pulls](https://img.shields.io/github/issues-pr/LieberInstitute/shinycsv)](https://github.com/LieberInstitute/shinycsv/pulls)
+[![R build status](https://github.com/LieberInstitute/shinycsv/workflows/R-CMD-check-bioc/badge.svg)](https://github.com/LieberInstitute/shinycsv/actions)
 
 
 # Non R-packages
