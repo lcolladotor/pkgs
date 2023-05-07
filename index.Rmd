@@ -296,6 +296,11 @@ Note: some of these GitHub repositories are currently private but will eventuall
 [![GitHub pulls](https://img.shields.io/github/issues-pr/LieberInstitute/dbFinder)](https://github.com/LieberInstitute/dbFinder/pulls)
 -->
 
+* `r Githubpkg("LieberInstitute/DLPFC_snRNAseq")`
+
+[![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/DLPFC_snRNAseq)](https://github.com/LieberInstitute/DLPFC_snRNAseq/issues)
+[![GitHub pulls](https://img.shields.io/github/issues-pr/LieberInstitute/DLPFC_snRNAseq)](https://github.com/LieberInstitute/DLPFC_snRNAseq/pulls)
+
 * `r Githubpkg("LieberInstitute/globus")`
 
 [![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/globus)](https://github.com/LieberInstitute/globus/issues)
@@ -328,6 +333,11 @@ Note: some of these GitHub repositories are currently private but will eventuall
 [![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/qsva_brain)](https://github.com/LieberInstitute/qsva_brain/issues)
 [![GitHub pulls](https://img.shields.io/github/issues-pr/LieberInstitute/qsva_brain)](https://github.com/LieberInstitute/qsva_brain/pulls)
 
+* `r Githubpkg("LieberInstitute/spatialDLPFC")`
+
+[![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/spatialDLPFC)](https://github.com/LieberInstitute/spatialDLPFC/issues)
+[![GitHub pulls](https://img.shields.io/github/issues-pr/LieberInstitute/spatialDLPFC)](https://github.com/LieberInstitute/spatialDLPFC/pulls)
+
 * `r Githubpkg("LieberInstitute/SPEAQeasy")`
 
 [![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/SPEAQeasy)](https://github.com/LieberInstitute/SPEAQeasy/issues)
@@ -349,6 +359,11 @@ Note: some of these GitHub repositories are currently private but will eventuall
 
 [![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/VistoSeg)](https://github.com/LieberInstitute/VistoSeg/issues)
 [![GitHub pulls](https://img.shields.io/github/issues-pr/LieberInstitute/VistoSeg)](https://github.com/LieberInstitute/VistoSeg/pulls)
+
+* `r Githubpkg("LieberInstitute/Visium_SPG_AD")`
+
+[![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/Visium_SPG_AD)](https://github.com/LieberInstitute/Visium_SPG_AD/issues)
+[![GitHub pulls](https://img.shields.io/github/issues-pr/LieberInstitute/Visium_SPG_AD)](https://github.com/LieberInstitute/Visium_SPG_AD/pulls)
 
 * `r Githubpkg("LieberInstitute/zandiHyde_bipolar_rnaseq")`
 
