@@ -88,7 +88,7 @@ library("sessioninfo")
 
 * `r Biocpkg("megadepth")`
 
-[![Lifecycle: maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
+[![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
 [![BioC status](http://www.bioconductor.org/shields/build/release/bioc/megadepth.svg)](https://bioconductor.org/checkResults/release/bioc-LATEST/megadepth)
 [![BioC dev status](http://www.bioconductor.org/shields/build/devel/bioc/megadepth.svg)](https://bioconductor.org/checkResults/devel/bioc-LATEST/megadepth)
 [![Codecov test coverage](https://codecov.io/gh/LieberInstitute/megadepth/branch/master/graph/badge.svg)](https://codecov.io/gh/LieberInstitute/megadepth?branch=master)
