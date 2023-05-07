@@ -8,6 +8,8 @@ author:
     email: lcolladotor@gmail.com
 output:
   html_document:
+    includes:
+      in_header: header.html
     self_contained: false
     toc: true
     toc_float:
