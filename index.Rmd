@@ -178,22 +178,16 @@ library("sessioninfo")
 
 ## Contributor
 
-* `r Biocpkg("brainflowprobes")`
+* `r Biocpkg("DeconvoBuddies")`
 
 [![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
-[![BioC status](http://www.bioconductor.org/shields/build/release/bioc/brainflowprobes.svg)](https://bioconductor.org/checkResults/release/bioc-LATEST/brainflowprobes)
-[![BioC dev status](http://www.bioconductor.org/shields/build/devel/bioc/brainflowprobes.svg)](https://bioconductor.org/checkResults/devel/bioc-LATEST/brainflowprobes)
-[![Codecov test coverage](https://codecov.io/gh/LieberInstitute/brainflowprobes/branch/devel/graph/badge.svg)](https://codecov.io/gh/LieberInstitute/brainflowprobes?branch=devel)
-[![R build status](https://github.com/LieberInstitute/brainflowprobes/workflows/R-CMD-check-bioc/badge.svg)](https://github.com/LieberInstitute/brainflowprobes/actions)
-[![Support site activity, last 6 months: tagged questions/avg. answers per question/avg. comments per question/accepted answers, or 0 if no tagged posts.](http://www.bioconductor.org/shields/posts/brainflowprobes.svg)](https://support.bioconductor.org/tag/brainflowprobes/)
-[![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/brainflowprobes)](https://github.com/LieberInstitute/brainflowprobes/issues)
-[![GitHub pulls](https://img.shields.io/github/issues-pr/LieberInstitute/brainflowprobes)](https://github.com/LieberInstitute/brainflowprobes/pulls)
-
-* `r Githubpkg("lmweber/OSTA-book")`
-
-[![R build status](https://github.com/lmweber/OSTA-book/workflows/R-CMD-bioc/badge.svg)](https://github.com/lmweber/OSTA-book/actions)
-[![GitHub issues](https://img.shields.io/github/issues/lmweber/OSTA-book)](https://github.com/lmweber/OSTA-book/issues)
-[![GitHub pulls](https://img.shields.io/github/issues-pr/lmweber/OSTA-book)](https://github.com/lmweber/OSTA-book/pulls)
+[![BioC status](http://www.bioconductor.org/shields/build/release/bioc/DeconvoBuddies.svg)](https://bioconductor.org/checkResults/release/bioc-LATEST/DeconvoBuddies)
+[![BioC dev status](http://www.bioconductor.org/shields/build/devel/bioc/DeconvoBuddies.svg)](https://bioconductor.org/checkResults/devel/bioc-LATEST/DeconvoBuddies)
+[![Codecov test coverage](https://codecov.io/gh/LieberInstitute/DeconvoBuddies/branch/devel/graph/badge.svg)](https://codecov.io/gh/LieberInstitute/DeconvoBuddies?branch=devel)
+[![R build status](https://github.com/LieberInstitute/DeconvoBuddies/workflows/R-CMD-check-bioc/badge.svg)](https://github.com/LieberInstitute/DeconvoBuddies/actions)
+[![Support site activity, last 6 months: tagged questions/avg. answers per question/avg. comments per question/accepted answers, or 0 if no tagged posts.](http://www.bioconductor.org/shields/posts/DeconvoBuddies.svg)](https://support.bioconductor.org/tag/DeconvoBuddies/)
+[![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/DeconvoBuddies)](https://github.com/LieberInstitute/DeconvoBuddies/issues)
+[![GitHub pulls](https://img.shields.io/github/issues-pr/LieberInstitute/DeconvoBuddies)](https://github.com/LieberInstitute/DeconvoBuddies/pulls)
 
 * `r Biocpkg("qsvaR")`
 
@@ -217,6 +211,17 @@ library("sessioninfo")
 [![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/TREG)](https://github.com/LieberInstitute/TREG/issues)
 [![GitHub pulls](https://img.shields.io/github/issues-pr/LieberInstitute/TREG)](https://github.com/LieberInstitute/TREG/pulls)
 
+* `r Biocpkg("visiumStitched")`
+
+[![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
+[![BioC status](http://www.bioconductor.org/shields/build/release/bioc/visiumStitched.svg)](https://bioconductor.org/checkResults/release/bioc-LATEST/visiumStitched)
+[![BioC dev status](http://www.bioconductor.org/shields/build/devel/bioc/visiumStitched.svg)](https://bioconductor.org/checkResults/devel/bioc-LATEST/visiumStitched)
+[![Codecov test coverage](https://codecov.io/gh/LieberInstitute/visiumStitched/branch/devel/graph/badge.svg)](https://codecov.io/gh/LieberInstitute/visiumStitched?branch=devel)
+[![R build status](https://github.com/LieberInstitute/visiumStitched/workflows/R-CMD-check-bioc/badge.svg)](https://github.com/LieberInstitute/visiumStitched/actions)
+[![Support site activity, last 6 months: tagged questions/avg. answers per question/avg. comments per question/accepted answers, or 0 if no tagged posts.](http://www.bioconductor.org/shields/posts/visiumStitched.svg)](https://support.bioconductor.org/tag/visiumStitched/)
+[![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/visiumStitched)](https://github.com/LieberInstitute/visiumStitched/issues)
+[![GitHub pulls](https://img.shields.io/github/issues-pr/LieberInstitute/visiumStitched)](https://github.com/LieberInstitute/visiumStitched/pulls)
+
 ## [CDSB](https://comunidadbioinfo.github.io/) Mexico
 
 * `r Biocpkg("regutools")`
@@ -234,6 +239,12 @@ library("sessioninfo")
 
 ## Actively maintained
 
+* `r Githubpkg("lmweber/BestPracticesST")`
+
+[![GitHub issues](https://img.shields.io/github/issues/lmweber/BestPracticesST)](https://github.com/lmweber/BestPracticesST/issues)
+[![GitHub pulls](https://img.shields.io/github/issues-pr/lmweber/BestPracticesST)](https://github.com/lmweber/BestPracticesST/pulls)
+
+
 * `r Githubpkg("LieberInstitute/jaffelab")`
 
 [![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
@@ -241,22 +252,21 @@ library("sessioninfo")
 [![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/jaffelab)](https://github.com/LieberInstitute/jaffelab/issues)
 [![GitHub pulls](https://img.shields.io/github/issues-pr/LieberInstitute/jaffelab)](https://github.com/LieberInstitute/jaffelab/pulls)
 
-* `r Githubpkg("LieberInstitute/sgejobs")`
-
-[![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
-[![R build status](https://github.com/LieberInstitute/sgejobs/workflows/R-CMD-check-bioc/badge.svg)](https://github.com/LieberInstitute/sgejobs/actions)
-[![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/sgejobs)](https://github.com/LieberInstitute/sgejobs/issues)
-[![GitHub pulls](https://img.shields.io/github/issues-pr/LieberInstitute/sgejobs)](https://github.com/LieberInstitute/sgejobs/pulls)
-
-* `r Githubpkg("LieberInstitute/shinycsv")`
-
-[![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
-[![R build status](https://github.com/LieberInstitute/shinycsv/workflows/R-CMD-check-bioc/badge.svg)](https://github.com/LieberInstitute/shinycsv/actions)
-[![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/shinycsv)](https://github.com/LieberInstitute/shinycsv/issues)
-[![GitHub pulls](https://img.shields.io/github/issues-pr/LieberInstitute/shinycsv)](https://github.com/LieberInstitute/shinycsv/pulls)
-
-
 ## Historical packages
+
+* `r Biocpkg("brainflowprobes")`
+
+<!--
+[![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
+[![BioC status](http://www.bioconductor.org/shields/build/release/bioc/brainflowprobes.svg)](https://bioconductor.org/checkResults/release/bioc-LATEST/brainflowprobes)
+[![BioC dev status](http://www.bioconductor.org/shields/build/devel/bioc/brainflowprobes.svg)](https://bioconductor.org/checkResults/devel/bioc-LATEST/brainflowprobes)
+[![Codecov test coverage](https://codecov.io/gh/LieberInstitute/brainflowprobes/branch/devel/graph/badge.svg)](https://codecov.io/gh/LieberInstitute/brainflowprobes?branch=devel)
+[![R build status](https://github.com/LieberInstitute/brainflowprobes/workflows/R-CMD-check-bioc/badge.svg)](https://github.com/LieberInstitute/brainflowprobes/actions)
+[![Support site activity, last 6 months: tagged questions/avg. answers per question/avg. comments per question/accepted answers, or 0 if no tagged posts.](http://www.bioconductor.org/shields/posts/brainflowprobes.svg)](https://support.bioconductor.org/tag/brainflowprobes/)
+-->
+[![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/brainflowprobes)](https://github.com/LieberInstitute/brainflowprobes/issues)
+[![GitHub pulls](https://img.shields.io/github/issues-pr/LieberInstitute/brainflowprobes)](https://github.com/LieberInstitute/brainflowprobes/pulls)
+
 
 * `r Githubpkg("lcolladotor/dots")`
 
@@ -280,6 +290,19 @@ library("sessioninfo")
 [![GitHub pulls](https://img.shields.io/github/issues-pr/LieberInstitute/libdRSE)](https://github.com/LieberInstitute/libdRSE/pulls)
 -->
 
+* `r Githubpkg("LieberInstitute/sgejobs")`
+
+[![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
+[![R build status](https://github.com/LieberInstitute/sgejobs/workflows/R-CMD-check-bioc/badge.svg)](https://github.com/LieberInstitute/sgejobs/actions)
+[![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/sgejobs)](https://github.com/LieberInstitute/sgejobs/issues)
+[![GitHub pulls](https://img.shields.io/github/issues-pr/LieberInstitute/sgejobs)](https://github.com/LieberInstitute/sgejobs/pulls)
+
+* `r Githubpkg("LieberInstitute/shinycsv")`
+
+[![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
+[![R build status](https://github.com/LieberInstitute/shinycsv/workflows/R-CMD-check-bioc/badge.svg)](https://github.com/LieberInstitute/shinycsv/actions)
+[![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/shinycsv)](https://github.com/LieberInstitute/shinycsv/issues)
+[![GitHub pulls](https://img.shields.io/github/issues-pr/LieberInstitute/shinycsv)](https://github.com/LieberInstitute/shinycsv/pulls)
 
 # Non R-packages
 
@@ -377,6 +400,11 @@ Note: some of these GitHub repositories are currently private but will eventuall
 
 [![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/Visium_SPG_AD)](https://github.com/LieberInstitute/Visium_SPG_AD/issues)
 [![GitHub pulls](https://img.shields.io/github/issues-pr/LieberInstitute/Visium_SPG_AD)](https://github.com/LieberInstitute/Visium_SPG_AD/pulls)
+
+* `r Githubpkg("LieberInstitute/visiumStitched_brain")`
+
+[![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/visiumStitched_brain)](https://github.com/LieberInstitute/visiumStitched_brain/issues)
+[![GitHub pulls](https://img.shields.io/github/issues-pr/LieberInstitute/visiumStitched_brain)](https://github.com/LieberInstitute/visiumStitched_brain/pulls)
 
 * `r Githubpkg("LieberInstitute/zandiHyde_bipolar_rnaseq")`
 
