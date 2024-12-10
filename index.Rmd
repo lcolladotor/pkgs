@@ -302,15 +302,11 @@ library("sessioninfo")
 
 * `r Githubpkg("LieberInstitute/sgejobs")`
 
-[![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
-[![R build status](https://github.com/LieberInstitute/sgejobs/actions/workflows/check-bioc.yml/badge.svg)](https://github.com/LieberInstitute/sgejobs/actions/workflows/check-bioc.yml)
 [![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/sgejobs)](https://github.com/LieberInstitute/sgejobs/issues)
 [![GitHub pulls](https://img.shields.io/github/issues-pr/LieberInstitute/sgejobs)](https://github.com/LieberInstitute/sgejobs/pulls)
 
 * `r Githubpkg("LieberInstitute/shinycsv")`
 
-[![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
-[![R build status](https://github.com/LieberInstitute/shinycsv/actions/workflows/check-bioc.yml/badge.svg)](https://github.com/LieberInstitute/shinycsv/actions/workflows/check-bioc.yml)
 [![GitHub issues](https://img.shields.io/github/issues/LieberInstitute/shinycsv)](https://github.com/LieberInstitute/shinycsv/issues)
 [![GitHub pulls](https://img.shields.io/github/issues-pr/LieberInstitute/shinycsv)](https://github.com/LieberInstitute/shinycsv/pulls)
 
